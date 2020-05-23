@@ -4,21 +4,18 @@
   </div>
 </template>
 <script>
-// import axios from 'axios';
+import axios from 'axios';
+import VueAxios from 'vue-axios';
+import Vue from 'vue';
 import Map from './components/Map.vue';
 
+Vue.use(VueAxios, axios);
 
 export default {
   name: 'App',
   components: {
     Map,
   },
-  // mounted() {
-  //   axios.get('https://tcgbusfs.blob.core.windows.net/blobyoubike/YouBikeTP.json')
-  //     .then( (response) => {
-  //       console.log(response);
-  //     })
-  // },
 };
 </script>
 
