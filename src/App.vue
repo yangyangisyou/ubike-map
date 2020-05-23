@@ -16,6 +16,9 @@ export default {
   components: {
     Map,
   },
+  created() {
+    document.title = 'Ubike 地圖';
+  },
 };
 </script>
 

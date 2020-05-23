@@ -65,8 +65,10 @@ export default {
       });
   },
   mounted() {
+    // leaflet文件
     // https://leafletjs.com/examples/quick-start/
     // https://leafletjs.com/reference-1.6.0.html#tilelayer-url-template
+    // map 設定
     this.OSMap = leaflet.map('map', {
       center: [25.041956, 121.508791],
       zoom: 18,
@@ -77,19 +79,45 @@ export default {
     }).addTo(this.OSMap);
   },
   computed: {
+    // 取得ubike的資料
     youbikes() {
       return this.ubikes.filter((bike) => bike.sarea === this.select.dist);
     },
   },
   watch: {
     youbikes() {
-      this.addMarkers();
+      this.updateMarkers();
     },
   },
   methods: {
-    addMarkers() {
+    updateMarkers() {
+      // 移除被選取的座標 eachLayer()、removeLayer()
+      // https://leafletjs.com/reference-1.6.0.html#map-eachlayer
+      // https://leafletjs.com/reference-1.6.0.html#map-removelayer
+      this.OSMap.eachLayer((layer) => {
+        if (layer instanceof leaflet.Marker) {
+          this.OSMap.removeLayer(layer);
+        }
+      });
+      // 新增選擇的座標
       this.youbikes.forEach((bike) => {
-        leaflet.marker([bike.lat, bike.lng]).addTo(this.OSMap);
+        leaflet.marker([bike.lat, bike.lng])
+          .bindPopup(`<p><strong style="font-size: 20px;">${bike.sna}</strong></p>
+                      <strong style="font-size: 16px; color: #d45345;">可租借車輛剩餘：${bike.sbi} 台</strong><br>
+                      可停空位剩餘: ${bike.bemp}<br>
+                      <small>最後更新時間: ${bike.mday}</small>`)
+          .addTo(this.OSMap);
+      });
+      // 聚焦到選擇的座標 panTo
+      // https://leafletjs.com/reference-1.6.0.html#map-panto
+      this.city[0].districts.find((dist) => {
+        if (dist.name === this.select.dist) {
+          // 聚焦座標
+          this.OSMap.panTo(new leaflet.LatLng(dist.latitude, dist.longitude));
+          // 傳送特效
+          // this.OSMap.flyTo(new leaflet.LatLng(dist.latitude, dist.longitude), 15);
+        }
+        return dist.name === this.select.dist;
       });
     },
   },
