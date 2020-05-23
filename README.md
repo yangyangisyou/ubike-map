@@ -15,7 +15,7 @@ Ajax: axios, vue-axios
 * CSS Pre-processors  
 * Linter  
 * Sass/SCSS (with node-sass)  
-* Airbnb Lint  
+* [Airbnb Lint](https://github.com/airbnb/javascript)  
 
 ## How to run
 1. run on local  
