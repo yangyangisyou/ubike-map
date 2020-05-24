@@ -20,7 +20,7 @@ Version 1.0: [Click me](https://ubikemap.yyisyou.tw/)
 
 ### CSS
 * BootStrap  
-* S
+* Sass
 
 ### Map API
 * [Leaflet](https://leafletjs.com/examples/quick-start/), an open street map  
