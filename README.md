@@ -1,7 +1,9 @@
 # Taiwan ubike map - 台灣ubike地圖
 
 ## Demo
-[Click me](https://ubikemap.yyisyou.tw/)
+Version 1.0: [Click me](https://ubikemap.yyisyou.tw/)
+
+- Now avalible in Taipei city.
 
 ## About 
 <p float="left" margin="10px">
