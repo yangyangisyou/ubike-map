@@ -3,14 +3,30 @@
 ## Demo
 [Click me](https://ubikemap.yyisyou.tw/)
 
-## About
-F2E: Vue.js 3.0  
-CSS: BootStrap, SASS  
-Map API: [Leaflet](https://leafletjs.com/examples/quick-start/), an open street map  
-Open data: [YouBike臺北市公共自行車即時資訊 - Taipei YouBike real time data](https://data.taipei/#/dataset/detail?id=8ef1626a-892a-4218-8344-f7ac46e1aa48)  
-Ajax: axios, vue-axios
+## About this project
+<img src="https://vuejs.org/images/logo.png" width="100px"> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/440px-Bootstrap_logo.svg.png" width="100px">
+<img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" width="100px">  
+<img src="https://leafletjs.com/docs/images/logo.png" width="200px"> 
+<img src="https://i.imgur.com/A2XaNqc.png"> 
 
-## Features
+### F2E
+* Vue.js 3.0  
+
+### CSS
+* BootStrap  
+* SASS
+
+### Map API
+* [Leaflet](https://leafletjs.com/examples/quick-start/), an open street map  
+
+### Open data
+* [YouBike臺北市公共自行車即時資訊 - Taipei YouBike real time data](https://data.taipei/#/dataset/detail?id=8ef1626a-892a-4218-8344-f7ac46e1aa48)  
+### Ajax
+* axios
+* vue-axios
+
+### Features
 * Babel  
 * CSS Pre-processors  
 * Linter  
