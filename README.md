@@ -1,4 +1,5 @@
 # Taiwan ubike map - 台灣ubike地圖
+YouBike uses an electronic unmanned automated management system to provide “ A Leases and B Returns” bike rental service. We hope that bikes will be chosen as the last-mile public transit vehicle and more citizens will be glad to use the mass transit system and meanwhile, environmental protection and energy conservation will be achieved and a new commuting culture will emerge.  
 
 ## Demo
 Version 1.0: [Click me](https://ubikemap.yyisyou.tw/)
