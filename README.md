@@ -57,3 +57,11 @@ npm run serve
 ```
 3. Go to http://localhost:8080
 
+## Challenges
+Ubike data is distributed on different government websites,  
+So it's a little tricky to integrate those open data.  
+If you interested in more open data, those are shown below:  
+- [新北市公共自行車租賃系統](https://data.gov.tw/dataset/28318)  
+- [桃園公共自行車即時服務資料](https://data.tycg.gov.tw/opendata/datalist/datasetMeta?oid=5ca2bfc7-9ace-4719-88ae-4034b9a5a55c). 
+- [新竹市公共自行車租賃系統](http://ipgod.nchc.org.tw/dataset/376580000a-29f955)
+
