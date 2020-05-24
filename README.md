@@ -3,7 +3,7 @@
 ## Demo
 [Click me](https://ubikemap.yyisyou.tw/)
 
-## About this project
+## About 
 <p float="left" margin="10px">
   <img src="https://vuejs.org/images/logo.png" width="100px"> 
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/440px-Bootstrap_logo.svg.png" width="100px">
