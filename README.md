@@ -40,9 +40,20 @@ Version 1.0: [Click me](https://ubikemap.yyisyou.tw/)
 <img src="https://i.imgur.com/A2XaNqc.png"> 
 
 ## How to run
-1. run on local  
+1. install related dev tools
+```
+npm install bootstrap
+npm install leaflet
+npm install --save axios vue-axios
+```
+or you can just install dependencies of package.json.
+```
+npm install
+```
+
+2. run on local  
 ```
 npm run serve
 ```
-2. Go to http://localhost:8080
+3. Go to http://localhost:8080
 
