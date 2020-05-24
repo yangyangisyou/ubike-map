@@ -4,11 +4,12 @@
 [Click me](https://ubikemap.yyisyou.tw/)
 
 ## About this project
-<img src="https://vuejs.org/images/logo.png" width="100px"> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/440px-Bootstrap_logo.svg.png" width="100px">
-<img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" width="100px">  
-<img src="https://leafletjs.com/docs/images/logo.png" width="200px"> 
-<img src="https://i.imgur.com/A2XaNqc.png"> 
+<p float="left" margin="10px">
+  <img src="https://vuejs.org/images/logo.png" width="100px"> 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/440px-Bootstrap_logo.svg.png" width="100px">
+  <img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" width="100px">  
+  <img src="https://leafletjs.com/docs/images/logo.png" width="200px"> 
+</p>
 
 ### F2E
 * Vue.js 3.0  
@@ -32,6 +33,7 @@
 * Linter  
 * Sass/SCSS (with node-sass)  
 * [Airbnb Lint](https://github.com/airbnb/javascript)  
+<img src="https://i.imgur.com/A2XaNqc.png"> 
 
 ## How to run
 1. run on local  
